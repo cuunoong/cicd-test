@@ -1,4 +1,4 @@
-function validatePassword( password = '' ) {
+function validatePassword (password = '') {
   // at least 8 character
   const validLength = password.length >= 8
 
