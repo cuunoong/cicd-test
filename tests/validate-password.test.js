@@ -2,7 +2,7 @@ const validatePassword = require('../utils/validate-password')
 
 test('return false if empty password', () => {
   // Given
-const password = ''
+  const password = ''
 
   // When
   const expected = validatePassword(password)
