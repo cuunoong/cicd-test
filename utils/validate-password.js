@@ -1,6 +1,6 @@
-function validatePassword(password = '') {
+function validatePassword( password = '' ) {
   // at least 8 character
-  const validLength = password.length >= 8;
+  const validLength = password.length >= 8
 
   // has at least one letter
   let hasLetter = false
