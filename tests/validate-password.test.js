@@ -77,5 +77,4 @@ describe('#validatePassword()', () => {
     // Then
     expect(expected).toBeTruthy()
   })
-
 })
